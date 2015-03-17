@@ -22,4 +22,9 @@ class ProductsController < ApplicationController
     end
   end
 
+  private
+  def whitelisted_params
+    params[:product].require(:product).permit(:name, :description, :price)
+  end
+
 end
