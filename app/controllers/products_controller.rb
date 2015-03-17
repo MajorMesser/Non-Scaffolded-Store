@@ -15,6 +15,11 @@ class ProductsController < ApplicationController
 
   def create
     @product = Product.new(params[:product])
+    if (@product.save)
+      redirect_to @product # redirect to the show for this product
+    else
+      render text: @product.errors.inspect
+    end
   end
 
 end
