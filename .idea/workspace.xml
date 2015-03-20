@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.20465116" vertical-offset="0" max-vertical-offset="860">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -458,7 +458,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426866416892</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding edit path to show page">
+      <created>1426866788050</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1426866788050</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -514,7 +520,8 @@
     <MESSAGE value="Adding links to all products on the index page" />
     <MESSAGE value="Adding regular expressions for validation" />
     <MESSAGE value="Adding the show page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the show page" />
+    <MESSAGE value="adding edit path to show page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding edit path to show page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -588,7 +595,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20465116" vertical-offset="0" max-vertical-offset="860">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding />
         </state>
       </provider>
