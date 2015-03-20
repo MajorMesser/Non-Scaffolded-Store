@@ -11,10 +11,10 @@ Rails.application.routes.draw do
 
   #SHOW
   get  'products' => 'products#index'
-  get  'products/:id' => 'products#show', as: 'product'
+  get  'products/:id' => 'products#show', as: 'product', id: /\d+/
 
   #UPDATE
-  get 'products/:id/edit' => 'products#edit', as: 'edit_product'
-  patch 'products/:id' => 'products#update'
+  get 'products/:id/edit' => 'products#edit', as: 'edit_product', id: /\d+/
+  patch 'products/:id' => 'products#update', id: /\d+/
 
 end
