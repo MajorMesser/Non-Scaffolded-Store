@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2541714111">
+    <data-source source="LOCAL" name="Rails non-scaffolded-store: development" uuid="c0a59fba-7f99-4ce4-be23-b314cb514c34">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Jordan\Documents\RRC\ECommerce\non-scaffolded-store\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
