@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get  'products' => 'products#index'
   get  'products/:id' => 'products#show', as: 'product'
 
-
+  #UPDATE
+  get 'products/:id/edit' => 'products#edit', as: 'edit_product'
 
 end

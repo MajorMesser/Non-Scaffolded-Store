@@ -51,8 +51,8 @@
       <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19753087" vertical-offset="0" max-vertical-offset="891">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.27160493" vertical-offset="0" max-vertical-offset="891">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -382,7 +382,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426865153743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding comments to routes">
+      <created>1426865235313</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1426865235313</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -431,7 +437,8 @@
     <MESSAGE value="Allowing product creation" />
     <MESSAGE value="Updating all files" />
     <MESSAGE value="Fixing the show and error handling on creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing the show and error handling on creation" />
+    <MESSAGE value="Adding comments to routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding comments to routes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -480,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19753087" vertical-offset="0" max-vertical-offset="891">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.27160493" vertical-offset="0" max-vertical-offset="891">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding />
         </state>
       </provider>
