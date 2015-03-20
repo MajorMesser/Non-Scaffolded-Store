@@ -29,6 +29,18 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
   end
 
+  def update
+    @product = Product.find(params[:id])
+
+    if@product.update_attributes(whitelisted_params)
+      redirect_to @product
+    else
+      render :edit
+    end
+  end
+  #No app/views/products/update
+  #Either redirect on success or render edit on failure
+
   private
   def whitelisted_params
     params.require(:product).permit(:name, :description, :price)
