@@ -15,7 +15,7 @@ class ProductsController < ApplicationController
 
   def create
     @product = Product.new(whitelisted_params)
-    if (@product.save)
+    if @product.save
       redirect_to @product # redirect to the show for this product
     else
       render :new
