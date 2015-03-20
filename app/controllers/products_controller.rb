@@ -25,6 +25,10 @@ class ProductsController < ApplicationController
   # If product saves, we redirect to the show
   # If validations fail, we render the view associated with the new action
 
+  def edit
+    @product = Product.find(params[:id])
+  end
+
   private
   def whitelisted_params
     params.require(:product).permit(:name, :description, :price)
