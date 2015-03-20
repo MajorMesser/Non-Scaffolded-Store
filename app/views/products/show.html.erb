@@ -6,4 +6,7 @@
 
 <h3>Cost: <%= number_to_currency @product.price %></h3>
 
-<p><%= link_to 'Edit Product', edit_product_path(@product) %></p>
+<p>
+  <%= link_to 'Edit Product', edit_product_path(@product) %> -
+  <%= link_to 'Destroy Product', @product,data: {confirm: 'Are you sure?'}, method: :delete  %>
+</p>

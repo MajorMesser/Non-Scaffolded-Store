@@ -41,6 +41,12 @@ class ProductsController < ApplicationController
   #No app/views/products/update
   #Either redirect on success or render edit on failure
 
+  def destroy
+    @product = Product.find(params[:id])
+    @product.destroy
+    redirect_to root_path
+  end
+
   private
   def whitelisted_params
     params.require(:product).permit(:name, :description, :price)
