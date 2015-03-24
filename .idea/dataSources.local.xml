@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails non-scaffolded-store: development" uuid="c0a59fba-7f99-4ce4-be23-b314cb514c34">
-      <first-sync>true</first-sync>
-    </data-source>
+    <data-source name="Rails non-scaffolded-store: development" uuid="c0a59fba-7f99-4ce4-be23-b314cb514c34" />
   </component>
 </project>

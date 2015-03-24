@@ -2,8 +2,8 @@
 
 <%= link_to 'New Product', new_product_path %>
 
-<ul>
 	<% @products.each do |product| %>
-      <li><%= link_to product.name, product %></li>
+      <h2><%= link_to product.name, product %></h2>
+      <p><%= product.description %></p>
+      <p>Price: <%= number_to_currency product.price %></p>
 	<% end %>
-</ul>
