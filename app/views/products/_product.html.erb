@@ -1,10 +1,16 @@
-<h2><%= @product.name %> </h2>
+<div class="product">
+    <h2><%= @product.name %> </h2>
 
-<div><%= @product.description %></div>
+    <%= if product.image_filename.present? %>
+        <p><%= image_tag product.image_filename %></p>
+    <%= end %>
 
-<h3>Cost: <%= number_to_currency @product.price %></h3>
+    <div><%= @product.description %></div>
 
-<p>
-  <%= link_to 'Edit Product', edit_product_path(@product) %> -
-  <%= link_to 'Destroy Product', @product,data: {confirm: 'Are you sure?'}, method: :delete  %>
-</p>
+    <h3>Cost: <%= number_to_currency @product.price %></h3>
+
+    <p>
+      <%= link_to 'Edit Product', edit_product_path(@product) %> -
+      <%= link_to 'Destroy Product', @product,data: {confirm: 'Are you sure?'}, method: :delete  %>
+    </p>
+</div>
