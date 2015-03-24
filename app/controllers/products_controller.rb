@@ -49,7 +49,11 @@ class ProductsController < ApplicationController
 
   private
   def whitelisted_params
-    params.require(:product).permit(:name, :description, :price)
+    params.require(:product).permit(:name, :description, :price, :image_filename)
+  end
+
+  def load_product_by_id
+    @product = Product.find_by(params[:id])
   end
 
 end
