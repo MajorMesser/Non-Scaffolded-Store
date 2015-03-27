@@ -16,3 +16,5 @@
 /tmp
 
 /app/assets/images/*
+/.idea/workspace.xml
+/.idea/tasks.xml
